@@ -1,0 +1,7 @@
+{
+"name": "Cuisines",
+"description": "A barebones Node.js app using Express 4",
+"repository": "https://github.com/AV-Coding/Final",
+"logo": "https://rawgit.com/heroku/node-js-sample/master/public/node.svg",
+"keywords": ["node", "express", "static"]
+}

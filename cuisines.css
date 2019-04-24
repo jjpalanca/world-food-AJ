@@ -1,0 +1,151 @@
+body{
+  margin: 0px;
+  background-image: url(foods.jpg);
+}
+#searchdiv, h1{
+  text-align: center;
+}
+#CuisineOptions{
+  width: 20%;
+  /*Cuisines*/
+}
+#DineIn-DineOut div{
+  margin: 20px;
+  padding-top: 200px;
+}
+.pics img{
+  height: 200px;
+  width: 300px;
+  border-style: double;
+  border-color: black;
+}
+.pics{
+  display: flex;
+  flex-direction: column;
+}
+span{
+  font-size: 20pt;
+  font-weight: 600;
+  font-family: fantasy;
+}
+.dishes img{
+  height: 200px;
+  width: 300px;
+  border-style: double;
+  border-color: black;
+}
+#AllDishes div{
+  margin: 5%;
+	text-align: center;
+}
+#DineIn-DineOut{
+  display: none;
+  text-align: center;
+  justify-content: center;
+}
+#DishContent{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#dishInfo{
+    text-align: center;
+}
+#dishInfo > img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 300px;
+}
+#description{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#dishPreparation{
+    text-align: left;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#noBulletPoint{
+    list-style:none;
+    margin-left: 0;
+}
+#AllRestaurants{
+    width: 50%;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.restaurantDiv{
+    margin: 10px;
+    text-align: left;
+    border: 1px gray solid;
+    padding: 5px;
+}
+.restaurantDiv > img{
+    float: left;
+    margin-right: 20px;
+    width: 120px;
+    height: 120px;
+}
+.restaurantDiv > p {
+    font-size: 12px;
+}
+#Maps img{
+  width:400px;
+  height:400px;
+}
+#Maps{
+  margin: 0;
+  width:400px;
+  height: 400px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+#OneRestaurant{
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  height:500px;
+  font-weight: bold;
+  font-size: 15pt;
+}
+#RestaurantInfo{
+  text-align: center;
+  display: flex;
+  width:50%;
+  height:100%;
+  margin:20px;
+  flex-direction: column;
+}
+#RestaurantInfo img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 300px;
+  width: 400px;
+}
+#header{
+  background-image: url(background.jpg);
+  background-repeat: repeat-x;
+  background-size: 50px 50px;
+  margin-top:0px;
+  text-align: right;
+}
+#header div{
+  align-items: center;
+}
+#header span{
+  margin:10px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

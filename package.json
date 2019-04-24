@@ -1,0 +1,30 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "CSC337Final",
+  "main": "cuisines_service.js",
+  "dependencies": {
+    "@google/maps": "^0.5.5",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "fs": "^0.0.1-security",
+    "mysql": "^2.17.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node cuisines_service.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AV-Coding/Final.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "A and J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AV-Coding/Final/issues"
+  },
+  "homepage": "https://github.com/AV-Coding/Final#readme"
+}

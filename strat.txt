@@ -1,0 +1,27 @@
+URL: localhost.com/mode=dine-in&type=filipino (displaying all foods)
+localhost.com/mode=dine-in&type=filipino&dish=adobo (displaying the selected dish)
+select type of food
+display dine-in/dine-out
+if dine-in:
+	display images and names of foods
+	if image is clicked:
+		display info.txt, ingredients, instructions, and img
+
+URL: localhost.com/mode=dine-out&type=filipino
+if dine-out:
+	get user current location, fetch the geolocation of the lists of restaurants
+	find the distance betweeen two points, display the nearest at the top
+
+in your js:
+when the user selects type of food, pass in the foldername--set global variable for type of food
+
+
+{name: adobo, imgURL:kinfs, description: ........., ingredients:KKDGDW , instructions:niefe}
+{Chinese: [{name: Old Peking,
+						latitude: ,
+						longitude: },
+						{name: ,
+						}]}
+
+
+1.

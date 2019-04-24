@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cuisines.css">
+    <script src="cuisines.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBD1gtaoKZCrOhf3SJ-7AhLpTou6vpV1yc&libraries=places"
+        type="text/javascript">
+    </script>
+    <title>Final</title>
+  </head>
+  <body>
+    <div id="header"><div><span id="home">home</span></div></div>
+    <!--div id="all"-->
+    <h1>Food Around the World</h1>
+    <div id="searchdiv">
+      <select id="CuisineOptions">
+        <option value="American">American Food</option>
+        <option value="Mexican">Mexican Food</option>
+        <option value="Filipino">Filipino Food</option>
+        <option value="Chinese" selected="selected">Chinese Food</option>
+        <option value="Korean">Korean Food</option>
+        <option value="French">French Food</option>
+        <option value="Greek">Greek Food</option>
+        <option value="Indian">Indian Food</option>
+      </select>
+      <button id="search">Start</button>
+		</div>
+    <div id="DineIn-DineOut">
+      <div class="pics">
+        <span>Dine-In</span>
+        <img id="DineIn" src="dine-in.jpg" alt="dine-in"/>
+      </div>
+      <div class="pics">
+        <span>Dine-Out</span>
+        <img id="DineOut" src="dine-out.jpg" alt="dine-in"/>
+      </div>
+    </div>
+    <div id="AllDishes" class="dishes">
+    </div>
+    <div id="OneDish">
+        <div id="DishContent">
+            <div id="dishInfo">
+            </div>
+            <div id="dishPreparation">
+                <div id="Ingredients">
+                    <h3>Ingredients:</h3>
+                </div>
+                <div id="Instructions">
+                    <h3>Instructions:</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="AllRestaurants" class="restaurants">
+    </div>
+    <div id="OneRestaurant">
+      <div id="RestaurantInfo">
+        <img id="RestaurantPic">
+      </div>
+      <div id="Maps">
+      </div>
+    </div>
+    <!--/div-->
+  </body>
+</html>
